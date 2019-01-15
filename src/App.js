@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from "./Button";
+// import Buttons from "./Button";
 
 // const log = () => console.log("hello");
 class App extends Component {
@@ -11,8 +12,9 @@ class App extends Component {
           it.
         </p>
 
-      <Button />
+        <Button />
 
+      {/* <Buttons onClick={log} /> */}
 
       </div>
     );

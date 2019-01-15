@@ -19,9 +19,9 @@ class Button extends Component {
 
     }
 }
-// function Button(props) {
+// function Buttons({onClick}) {
 //     return (
-//         <button onClick={props.onClick}>Click Me!</button>
+//         <button onClick={onClick}>Click Me!</button>
 //     )
 // }
 
