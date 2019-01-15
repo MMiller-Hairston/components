@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Button from "./Button";
+
+// const log = () => console.log("hello");
 class App extends Component {
   render() {
     return (
@@ -9,7 +11,8 @@ class App extends Component {
           it.
         </p>
 
-        <Button />
+      <Button />
+
 
       </div>
     );
